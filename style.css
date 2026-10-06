@@ -1,0 +1,46 @@
+nav {
+    background-color: #621942;
+    padding: 10px;
+}
+
+ li {
+    display : inline-block;
+    }
+    
+a{
+    color: #fff;
+  
+}
+
+.section1{
+    background-color: aqua;
+}
+
+.card {
+    background-color: rgba(247, 243, 245, 0.932);
+    padding: 20px;
+    width: 300px;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+    transition: box-shadow 0.3s;
+    
+}
+
+.card:hover{
+    box-shadow: 0 6px 16px gray;
+}
+.cardRow{
+    background-color: rgb(184, 48, 132);
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    border: 2px solid red;
+    flex-wrap: wrap;
+}
+@media (max-height: 400px){
+    body{
+        background-color: lightblue;
+    }
+}
