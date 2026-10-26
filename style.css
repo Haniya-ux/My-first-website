@@ -39,8 +39,38 @@ a{
     border: 2px solid red;
     flex-wrap: wrap;
 }
-@media (max-height: 400px){
-    body{
-        background-color: lightblue;
-    }
+
+
+.newsletter {
+    background-color: #e6e6e6;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.newsletter label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.newsletter input {
+    width: 280px;
+    max-width: 90%;
+    padding: 10px;
+    border: 1px solid #621942;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.newsletter button {
+    background-color: #621942;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: rgb(184, 48, 132);
 }
